@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: "Raleway", "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.align-baseline {
+    align-items: baseline;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.flex {
+    display: flex;
+}
+
+.fill-flex {
+    flex: 1;
+}
+
+.full-height {
+  height: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+.loader-hidden {
+  display: none;
+}
+.loader-active {
+  display: block;
+}
+
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.wrap-content {
+    flex-wrap: wrap;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.white-divider {
+  background-color: rgba(255,255,255,0.12) !important;
+}
+
+.rbc-off-range {
+  opacity: 0;
+}
+
+.rbc-month-view, .rbc-month-view * {
+  border: none !important;
+}
+
+.rbc-calendar *, .rbc-calendar *:before, .rbc-calendar *:after {
+  box-sizing: content-box;
+}
+
+.rbc-row-content,
+.rbc-row-content .rbc-row{
+  height: 100%;
+}
+
+.rbc-date-cell {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*color: #FFFFFF;*/
+}
